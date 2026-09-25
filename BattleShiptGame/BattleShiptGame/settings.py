@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'BattleShiptGame.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
+print(BASE_DIR / 'data' / 'db.sqlite3')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
